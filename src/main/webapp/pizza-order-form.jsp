@@ -20,42 +20,56 @@
       <th>3. Sauce Type</th>
       <th>4. Size </th>
     </tr>
-    <tr>
-      <td>topping item
-        <input type="checkbox" id="topping1" name="topping1" value="pepperoni">
+
+      <tr>
+        <input type="checkbox" id="topping1" name="toppings" value="pepperoni">
         <label for="topping1">Pepperoni</label>
+      </tr>
         <br>
-        <label></label>
-        <label></label>
-      </td>
+      <tr>
+        <input type="checkbox" id="topping2" name="toppings" value="sausage">
+        <label for="topping2">Sausage</label>
+      </tr>
+        <br>
+      <tr>
+        <input type="checkbox" id="topping3" name="toppings" value="bacon">
+        <label for="topping3">Bacon</label>
+      </tr>
       <td>
-        <select name = "crust" form="pizza-form">
+        <label for="crust"></label>
+        <select name = "crust" id="crust" form="pizza-form">
           <option value="pan">pan</option>
           <option value="stuff">stuff</option>
           <option value="deep dish">deep dish</option>
           <option value="thin">thin</option>
         </select>
       </td>
+
       <td>
-        <select name="sauce" form="pizza-form">
+        <label for="sauce"></label>
+        <select name="sauce" id="sauce" form="pizza-form">
           <option value ="classic">classic</option>
           <option value ="white">white</option>
           <option value ="bbq">bbq</option>
           <option value ="chili">chili</option>
         </select>
       </td>
+
       <td>
-        <select name="size" form="pizza-form">
+        <label for="size"></label>
+        <select name="size" id="size" form="pizza-form">
           <option value="personal">personal</option>
           <option value="small">small</option>
           <option value="medium">medium</option>
           <option value="Large">Large</option>
         </select>
       </td>
-    </tr>
+
   </table>
   <br>
-  <input type="text" placeholder="please enter delivery address"/>
+  <label for="address">Please enter your address</label>
+  <br>
+  <input type="text" name="address" id="address" placeholder="please enter delivery address"/>
   <input type="submit" name="submit"/>
 </form>
 
