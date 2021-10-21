@@ -46,7 +46,7 @@ public class JDBCEmployees {
                     firstNames.add(firstName);
 //                    System.out.println(resultSet.getString("first_name"));
                 }
-                System.out.println(firstNames);
+//                System.out.println(firstNames);
 
             } catch (SQLException throwables){
                 throwables.printStackTrace();
