@@ -1,3 +1,6 @@
 *.iml
+
+Config.java
+
 target/
 .idea/
